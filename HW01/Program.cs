@@ -8,7 +8,7 @@
 
 
 
-int GetNumber1(string message)
+int GetNumber(string message)
 {
     int result = 0;
 
@@ -39,7 +39,7 @@ int GetDegree(int numberA, int numberB)
     return degree;
 }
 
-int numberA = GetNumber1("Введите число больше 1");
-int numberB = GetNumber1("Введите число больше 1");
+int numberA = GetNumber("Введите число больше 1");
+int numberB = GetNumber("Введите число больше 1");
 int degree = GetDegree(numberA, numberB);
 Console.WriteLine($"Число {numberA} в степени {numberB} = {degree}");
